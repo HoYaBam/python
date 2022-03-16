@@ -7,16 +7,5 @@ all = soup.find_all(['body'])
 
 
 for item in all:
-    #item.extract()
-    #print(item)
     content = soup.get_text('\n', strip=True)
     print(content)
-# for item in all:
-#     print(item)
-# for item in tbody:
-#     if item.string != None:
-#         print(item.string)
-#
-# for item in tli:
-#     if item.string != None:
-#         print(item.string)
